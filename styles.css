@@ -141,5 +141,5 @@ img {
 #profile-link:hover {
   background: #034b63;
   color: #e5dada;
-  border: none;
+  border: transparent solid;
 }
