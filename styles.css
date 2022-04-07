@@ -24,10 +24,18 @@ img {
   left: 0;
   background: #034b63;
   display: grid;
+  align-items: center;
+}
+
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  background: #034b63;
+  display: grid;
   grid-template-columns: repeat(3, auto);
   justify-content: right;
   gap: 3rem;
-  place-items: center;
+  margin: 0 auto;
 }
 
 #navbar a {
